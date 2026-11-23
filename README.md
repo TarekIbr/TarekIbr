@@ -1,68 +1,98 @@
-<!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f0f0f,50:1a1a2e,100:00d084&text=Tarek&fontColor=ffffff&fontSize=72&fontAlignY=36&desc=I%20build%20things.&descAlignY=58&descSize=20&animation=fadeIn" alt="Tarek – I build things." width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0b0b0c,55:0f1d15,100:3dff8a&text=MAKE%20IT%20MOVE.&fontColor=edebe6&fontSize=64&fontAlignY=38&desc=Robotics%20%C2%B7%20Software%20%C2%B7%20IT%20%C2%B7%20Security&descAlignY=60&descSize=18&animation=fadeIn" alt="Make it move. Robotics · Software · IT · Security" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://tarek.vision">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00D084&center=true&vCenter=true&width=560&lines=Developer+%C2%B7+Quant+Finance+%C2%B7+Mathe;Von+der+Idee+bis+zum+Deployment;Learn.+Build.+Improve.;Always+long." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=1000&color=3DFF8A&center=true&vCenter=true&width=600&lines=%3E+Hey+Spiegel+%E2%80%A6;%3E+wake-word+erkannt+%C2%B7+aufnahme+l%C3%A4uft;%3E+Code%2C+der+etwas+in+der+echten+Welt+bewegt.;%3E+Bauen.+Testen.+Absichern." alt="Terminal-Zeilen: Hey Spiegel, Code der etwas bewegt" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://tarek.vision"><img src="https://img.shields.io/badge/Portfolio-tarek.vision-00d084?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f0f0f" alt="Portfolio" /></a>
-  <a href="https://github.com/TarekIbr?tab=repositories"><img src="https://img.shields.io/badge/Projekte-ansehen-ffffff?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0f0f&color=1a1a2e" alt="Projekte" /></a>
+  <a href="https://tarek.vision"><img src="https://img.shields.io/badge/Portfolio-tarek.vision-3dff8a?style=for-the-badge&labelColor=0b0b0c" alt="Portfolio: tarek.vision" /></a>
 </p>
 
 ---
 
-### 👋 Hi, ich bin Tarek.
+### `> whoami`
 
-Ich will verstehen, wie Dinge funktionieren. Deshalb baue ich sie lieber selbst, statt nur darüber zu lesen.
-Eine Idee ist für mich erst dann etwas wert, wenn sie **läuft, Fehler macht und besser wird** – egal ob Code, Märkte oder ein eigenes Produkt.
+Hi, ich bin **Tarek**. Ich will verstehen, wie Systeme funktionieren, vom Motor im Gelenk bis zum Paket im Netzwerk, und baue sie deshalb lieber selbst.
+Code ist für mich erst fertig, wenn er **etwas in der echten Welt bewegt** – und wenn er dabei sicher bleibt.
 
-```js
-const tarek = {
-  basis:    "Deutschland 🇩🇪",
-  fokus:    ["Produkte", "Backend", "Quant Finance"],
-  gerade:   "ReviewFlow",
-  lernt:    "Rust",
-  forscht:  "Volatility Clustering im DAX · GARCH(1,1)",
-  motto:    "Learn. Build. Improve.",
-};
+```yaml
+fokus:    [Robotics, Software, IT-Systeme, Security]
+gerade:   J.A.R.V.I.S. & ein Roboterarm, der meiner Hand folgt
+lernt:    [ROS 2, Netzwerk-Security]
+homelab:  online 🟢
+motto:    Make it move.
 ```
 
-### 🚀 Woran ich baue
+---
 
-| | Projekt | Worum es geht | Stack |
-|:-:|---|---|---|
-| 🟢 | **[ReviewFlow](https://github.com/TarekIbr/ReviewFlow)** | Feedback- & Bewertungs-Plattform für lokale Unternehmen – macht aus Reviews konkrete Aufgaben | React · TypeScript · Supabase · Stripe |
-| 🟡 | **WASGEHT** | Social-Nightlife-App: was heute in deiner Stadt los ist und wo deine Freunde hingehen | Expo · React Native · Supabase |
-| 🧠 | **[openclaw-brain](https://github.com/TarekIbr/openclaw-brain)** | Control-Dashboard für KI-Agents mit Realtime-Chat, Logs und Tasks | React · TypeScript · Fastify · Docker |
-| 🦾 | **[hand-teleop-robot-arm](https://github.com/TarekIbr/hand-teleop-robot-arm)** | Roboterarm in PyBullet per Hand über die Webcam steuern | Python · PyBullet · Computer Vision |
-| 🔍 | **[robot-log-analyzer](https://github.com/TarekIbr/robot-log-analyzer)** | Roboter-Logs auswerten, Fehler finden, Support-Tickets automatisch schreiben | Python |
-| ✨ | **[Portfolio](https://github.com/TarekIbr/Portfolio)** | Meine Seite [tarek.vision](https://tarek.vision) – WebGL, GSAP, smooth scrolling | React 19 · Vite · Tailwind · GSAP |
+### 🎙️ Featured: J.A.R.V.I.S.
 
-### 🛠️ Stack
+<img src="assets/jarvis.png" alt="J.A.R.V.I.S. – KI-Sprachassistent" width="100%" />
+
+Mein eigener **KI-Sprachassistent für einen Smart Mirror**. Er lauscht auf sein Wake-Word, hört zu, bis ich fertig bin, versteht, was ich will, und antwortet mit echter Stimme.
+
+```mermaid
+flowchart LR
+  A["🎙️ Wake-Word<br/><sub>Porcupine</sub>"] --> B["⏺️ Aufnahme<br/><sub>bis 2 s Stille</sub>"]
+  B --> C["📝 Transkription<br/><sub>Whisper</sub>"]
+  C --> D["🧠 Intent als JSON<br/><sub>GPT-4o mini</sub>"]
+  D --> E["🔀 Router<br/><sub>Musik · Wetter · Kalender · Chat</sub>"]
+  E --> F["🔊 Stimme<br/><sub>ElevenLabs</sub>"]
+```
+
+---
+
+### 🦾 Robotics
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/TarekIbr/hand-teleop-robot-arm"><img src="https://raw.githubusercontent.com/TarekIbr/hand-teleop-robot-arm/main/docs/sim_demo.gif" alt="Roboterarm in PyBullet folgt der Hand" width="100%" /></a>
+      <h4><a href="https://github.com/TarekIbr/hand-teleop-robot-arm">hand-teleop-robot-arm</a></h4>
+      Einen Roboterarm in PyBullet mit der eigenen Hand steuern, nur über die Webcam – inklusive Aufnahme von Demonstrationsdaten.<br/><br/>
+      <code>Python</code> <code>PyBullet</code> <code>OpenCV</code> <code>MediaPipe</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/TarekIbr/robot-log-analyzer"><img src="https://raw.githubusercontent.com/TarekIbr/robot-log-analyzer/main/docs/screenshot.svg" alt="Terminal-Ausgabe des Robot Log Analyzer" width="100%" /></a>
+      <h4><a href="https://github.com/TarekIbr/robot-log-analyzer">robot-log-analyzer</a></h4>
+      Roboter-Logs auswerten, Fehler pro Komponente finden und automatisch einen Support-Ticket-Text mit Eskalation schreiben.<br/><br/>
+      <code>Python</code> <code>Rich</code> <code>CLI</code>
+    </td>
+  </tr>
+</table>
+
+### 🛠️ Software & Infrastruktur
+
+| | Projekt | Worum es geht |
+|:-:|---|---|
+| 🧠 | **[openclaw-brain](https://github.com/TarekIbr/openclaw-brain)** | Control-Dashboard für KI-Agents mit Realtime-Chat, Logs und Tasks · React, TypeScript, Fastify, Docker |
+| 💬 | **ReviewFlow** | Feedback-Plattform für lokale Unternehmen · React, TypeScript, Supabase, Stripe |
+| ✨ | **[Portfolio](https://github.com/TarekIbr/Portfolio)** | [tarek.vision](https://tarek.vision) – WebGL, GSAP und ein Carousel, das Videos kann |
+
+---
+
+### ⚙️ Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,vite,tailwind,supabase,postgres,docker&theme=dark" alt="Web stack" /><br/>
-  <img src="https://skillicons.dev/icons?i=python,kotlin,rust,r,latex,figma,vercel,linux,git&theme=dark" alt="More stack" />
+  <img src="https://skillicons.dev/icons?i=python,opencv,ros,ts,react,nodejs&theme=dark" alt="Python, OpenCV, ROS, TypeScript, React, Node.js" /><br/>
+  <img src="https://skillicons.dev/icons?i=linux,arch,bash,docker,postgres,git&theme=dark" alt="Linux, Arch, Bash, Docker, PostgreSQL, Git" />
 </p>
 
-### 📈 Aktivität
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TarekIbr&bg_color=0d1117&color=c9d1d9&line=00d084&point=ffffff&area=true&area_color=00d084&hide_border=true&custom_title=Contributions" alt="Contribution graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TarekIbr&bg_color=0b0b0c&color=9d9a94&line=3dff8a&point=edebe6&area=true&area_color=3dff8a&hide_border=true&custom_title=Commits" alt="Commit-Aktivität" width="100%" />
 </p>
 
 ---
 
 <p align="center">
-  <b>Mehr Projekte, Research und wer ich bin:</b><br/><br/>
-  <a href="https://tarek.vision"><img src="https://img.shields.io/badge/→%20tarek.vision-00d084?style=for-the-badge&labelColor=0f0f0f" alt="tarek.vision" /></a>
+  <b>Mehr Projekte, Lab Notes und wer ich bin:</b><br/><br/>
+  <a href="https://tarek.vision"><img src="https://img.shields.io/badge/%3E_tarek.vision-3dff8a?style=for-the-badge&labelColor=0b0b0c" alt="tarek.vision" /></a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:00d084,50:1a1a2e,100:0f0f0f&section=footer" width="100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:3dff8a,45:0f1d15,100:0b0b0c&section=footer" width="100%" alt="" />
 </p>
